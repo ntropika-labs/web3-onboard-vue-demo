@@ -22,6 +22,10 @@ body {
   color: #adbac7;
   background-color: #22272e;
 }
+img {
+  margin: 0 auto;
+  display: block;
+}
 
 a {
   color: #6cb6ff;
@@ -31,6 +35,13 @@ a:visited {
   color: #316dca
 }
 
+ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0;
+}
 #app {
   text-align: center;
   margin-top: 60px;
